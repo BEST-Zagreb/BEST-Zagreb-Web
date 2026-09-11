@@ -4,7 +4,7 @@ Static archive of the website that ran at **best.hr** until 2026-09-10, when the
 behind it was retired. Every page here is plain HTML. There is no database, no PHP and nothing to
 keep patched.
 
-Intended home: **best.hr**
+Home: **https://best.hr/**
 
 - 20 published pages, 249 files, 13.2 MB
 - Verified: every page and asset requested over HTTP, 136 URLs, **0 failures**
@@ -50,6 +50,11 @@ content left in place.
 The content, images and copy belong to BEST Zagreb. Third-party theme and plugin assets under
 `wp-content/` remain under their own licences and are included only because the pages need them to
 render as they originally did.
+
+## Hosting
+
+Live at <https://best.hr/>, served by Cloudflare Workers as static files straight from this repository.
+Every push to `main` is deployed by Workers Builds within a minute or two. The `dev` branch deploys the same way to <https://dev.best.hr/> for trying changes first.
 
 ## Wayback Machine
 
