@@ -56,6 +56,10 @@ render as they originally did.
 Live at <https://best.hr/>, served by Cloudflare Workers as static files straight from this repository.
 Every push to `main` is deployed by Workers Builds within a minute or two. The `dev` branch deploys the same way to <https://dev.best.hr/> for trying changes first.
 
+## Editions
+
+Older editions of best.hr live in their own repositories and year hostnames, so a rebuild of this site never touches them: the 2017 edition at <https://2017.best.hr/> ([BEST-Zagreb-Web-2017](https://github.com/BEST-Zagreb/BEST-Zagreb-Web-2017)) and the 2021 edition at <https://2021.best.hr/> ([BEST-Zagreb-Web-2021](https://github.com/BEST-Zagreb/BEST-Zagreb-Web-2021)). When this edition is replaced, freeze it the same way under `<year>.best.hr`.
+
 ## Wayback Machine
 
 The site ran at <https://best.hr/>. The Internet Archive's calendar for it is <https://web.archive.org/web/*/https://best.hr/*>.
